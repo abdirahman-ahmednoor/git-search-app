@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
+## Description 
+This is a simple appication that enables the user to search and display the profile and list of repositories in a Github account.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,3 +28,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Behaaviour Driven Developent 
+Dispalys forms for searching username details to display the user Github profile and the list of the repositories in account.
+ 
+           | input | output  |
+           |:--        |    :--- |
+
+           | Username |  Display user profile and list of repositories | 
+           
+## Technologies Used
+1. HTML
+2. CSS
+3. ANGULAR
+4. JAVASCRIPT
+
+## License
+This project is under [Mit](Licence) license.
