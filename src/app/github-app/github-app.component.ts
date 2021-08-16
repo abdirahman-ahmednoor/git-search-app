@@ -11,14 +11,14 @@ import { GithubServiceService } from '../github-service.service';
 export class GithubAppComponent implements OnInit {
   userName!: string ;
   githubService!:GithubServiceService
-
+ constructor(githubServiceService:GithubServiceService) {
+    this.githubService = githubServiceService
+  }
   searchUser(){
-    this.githubService.getUserData(this.userName)
+  this.githubService.getUserData(this.userName)
   }
   
-  constructor(githubServiceService: GithubServiceService) {
-    this.githubService = this.githubService
-  }
+ 
 
   ngOnInit(): void {
   }
